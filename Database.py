@@ -9,6 +9,9 @@ class User:
         return Users
     def password_add(self):
         Passwords.append(self.password)
+    def store_age(self,age):
+        self.age = age
+
 numberidentification = 0
 Users = []
 Passwords = []
